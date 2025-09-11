@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-.font-1> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+.Ag.font-2{
+  font-family: 'Agdasima', sans-serif;
+   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-.font-3> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.dark-1{
+    color: #252432;
+}
+.dark-2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.dark-3{
+    color: rgba(233, 90, 8, 1);
+}
+
+/* Main Related Styles*/
+
+/* navbar styles */
+.navbar{
+    max-width: 1140px;
+    max-height: 70px;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px;
+    
+}
+.nav-links{
+    display: flex;
+    gap: 45px;
+
+}
+.nav-links > a{
+    text-decoration: none;
+    color: #8987A1;
+}
+#home{
+    color: #252432;
+    font-weight: bold;
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 5px auto;
+
+}
+/* Banner related styles */
+.banner{
+    max-width: 1140px;
+    max-height: 450px;
+    display: flex;
+    align-items: end;
+    margin: 100px 150px; 
+}
+.banner-img{
+    max-width: 550px;
+}
+.banner-content{
+    max-width: 550px;
+
+}
+.banner-description{
+    font-size: 1.37rem;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
