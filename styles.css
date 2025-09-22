@@ -129,6 +129,7 @@
     
 
 }
+
 .card{
     text-align: center;
     width: 270px;
@@ -338,13 +339,25 @@
     padding:10px 20px;
     outline: none;
 }
+.last-content{
+    max-width: 350px;
+    max-height: 170px;
+}
+.last-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
 @media screen and (max-width:576px){
     .hide{
         display: none;
         max-height: auto;
         
     }
-    .banner,
+    .banner{
+        flex-direction: column-reverse;
+    }
     .lovers-card{
         flex-direction: column;
         gap: 10px;
@@ -365,10 +378,20 @@
         margin: 0;
         margin-top: 250px;
     }
+    .description{
+        height: 0;
+        width: 500px;
+        margin-bottom: 100px;
+    }
     .card-container{
-        grid-template-columns: 2,(3fr);
+        grid-template-columns: repeat(2,1fr);
         margin: 0;
         gap: 10px;
+        width: 250px;
+        
+    }
+    .card{
+        width: 250px;
     }
     .deal-container{
         margin: 180PX auto;
@@ -376,7 +399,7 @@
     }
     .card-container-gap{
         grid-template-columns: repeat(1,1fr);
-        /* margin: 0; */
+        
     }
     .card-zb{
         height: 200px;
@@ -389,7 +412,9 @@
     .btns-primary{
         padding:8px 20px;
     }
-   
+   .last-part{
+      flex-direction: column;
+   }
    
 }
     
